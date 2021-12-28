@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+// Exercício 01 - seção 04 Estrutura Sequencial
+
+//Faça um programa para ler dois valores inteiros, e depois mostrar na tela a soma desses números com uma
+//mensagem explicativa, conforme exemplos.
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+   System.out.println("=== Digite o valor 2 numeros de entrda e veja saida ========");
+		
+   Scanner sc = new Scanner(System.in);	
+		
+   int n1,n2;
+   double soma;
+
+ 
+   
+   System.out.println("\n---| RESULTADO - DADOS DIGITADOS: |---"); 
+   
+   System.out.println("Digite 1° Valor "); 
+   n1 = sc.nextInt();
+   
+   System.out.println("Digite 2° Valor "); 
+   n2=  sc.nextInt();
+   
+   System.out.println("\n---| RESULTADO - DADOS DIGITADOS: |---"); 
+   
+   soma = n1 + n2;
+   System.out.printf("SAIDA: %.2f%n ",soma );
+
+   
+   
+   
+   
+		
+		
+		
+
+	}
+
+}
