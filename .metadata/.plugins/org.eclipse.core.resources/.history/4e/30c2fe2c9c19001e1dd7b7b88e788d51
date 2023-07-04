@@ -1,0 +1,53 @@
+package dominio;
+
+public class Pessoa {
+	
+	private Integer id;
+	private strig nome;
+	private string email;
+	
+	/*--Construtor vazio*/
+	public Pessoa() {	
+	}
+
+	/*--Metodo Construtor*/  
+	public Pessoa(Integer id, strig nome, string email) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.email = email;
+	}
+
+	/*--Metodo Get and Setings*/  
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public strig getNome() {
+		return nome;
+	}
+
+	public void setNome(strig nome) {
+		this.nome = nome;
+	}
+
+	public string getEmail() {
+		return email;
+	}
+
+	public void setEmail(string email) {
+		this.email = email;
+	}
+
+	
+	
+	
+	/*--Metodo To String*/ 
+	
+	
+
+}
